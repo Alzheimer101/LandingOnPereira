@@ -1,20 +1,67 @@
 body{
-
-   background-image: url(Imagens/lx.avif);
-    background-size: cover;
-    
+    background-color: black;
+    background-image: url(imagens/test.avif);
     color: white;
-    text-align: left;
-    margin-left: 50px;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: auto;
+    margin: auto;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 75px;
     padding-top: 50px;
     margin-bottom: 20px;
 }
 
+.rtg1{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border:1px solid white;
+    background:black;
+    border:50%;
+    width:200px;
+    text-align:center;
+    color:#fff;
+    padding:20px;
+    font-size:20px;
+    margin-bottom: 30px;
+   
+}
+.rtg2{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border:1px solid white;
+    background:black;
+    border:50%;
+    width:250px;
+    text-align:center;
+    color:#fff;
+    padding:20px;
+    font-size:20px;
+    margin-bottom: 30px;
+   
+}
+.rtg3{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border:1px solid white;
+    background:black;
+    border:50%;
+    width:200px;
+    text-align:center;
+    color:#fff;
+    padding:20px;
+    font-size:20px;
+    margin-bottom: 60px;
+   
+}
 p{
     font-size: 15px;
     font-weight: regular;
@@ -22,8 +69,9 @@ p{
     opacity: 1;
 }
 
+
 span{
-    color: rgb(225, 255, 0);
+    font-weight: bold;
 }
 
 ul{
@@ -37,30 +85,35 @@ li{
 ul li a {
     color:white;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 75px;
     padding: 5px;
     
 }
-ul li a.hover{
-    opacity: 0.7;
-}
 
-.aboutme{
-    margin-bottom: 60px;
-}
+
 
 .botao{
+    font-size: larger;
     text-decoration: none;
     padding: 5px 10px 5px 10px;
-    color: black;
+    color: yellow;
     font-style: bol;
     font-weight: 500;
-    
+    border-style:solid;
 }
 
 .botao:hover{
     background-color: rgb(0, 0, 0);
-    color: white;
-    opacity: 0.7;
-    font-weight: bolder;
+    color: rgb(68, 255, 0);
+    opacity: 1;
+    font-weight:800;
+}
+
+
+
+@media(max-width: 640px) {
+    body{
+        background: black;
+        text-align: center;
+    }
 }
