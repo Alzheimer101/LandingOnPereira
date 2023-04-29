@@ -1,7 +1,8 @@
 body{
+    background-color: black;
     background-image: url(imagens/bg-image.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center;  
     color: white;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
